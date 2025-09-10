@@ -1,7 +1,7 @@
 # Makefile for demo 2
 
 install:
-	uv sync
+	uv add requests
 
 run:
 	uv run python main.py
